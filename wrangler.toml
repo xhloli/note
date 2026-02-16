@@ -1,0 +1,11 @@
+name = "note"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "NOTE_KV"
+id = "6a66421782ab4206b513908ad57a79d8"   # 可在 Cloudflare Dashboard 的 Workers -> KV 中找到
+
+[[r2_buckets]]
+binding = "NOTE_UPLOADS"
+bucket_name = "my-note-uploads"
